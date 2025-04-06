@@ -37,5 +37,12 @@ Las tablas están normalizadas y se relacionan por medio de claves foráneas, ga
    ```bash
    git clone https://github.com/gustavosuarez355/proyecto-gestion-gastos.git
    ```
+## ⚙️ Ejecución de los Scripts
+
+1. Abre SQL Server Management Studio (SSMS) o Azure Data Studio.
+2. Ejecuta el script `create_database.sql` ubicado en el archivo `/dbgestiongastos.sql` para crear la base de datos y sus tablas.
+3. Luego ejecuta el script del arcchivo datos_semilla`seed_data.sql` para insertar los datos iniciales (monedas y categorías).
+
+> Asegúrate de tener seleccionada la base de datos creada antes de ejecutar `seed_data.sql`.
 
 
